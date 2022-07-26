@@ -45,10 +45,18 @@ _________________
 证明目标数值左右两个值均在Merkle树中，且两值相邻，即可证明目标数值不在Merkle树中（此处为了方便，原始数值均按顺序排列）。
 
 __项目测试__
-_________________
+=
+
+运行指导
+=
+
+可直接运行
+
+运行截图
+=
 
 我们创建具有100000个叶子节点的Merkle树，并证明4在这个树中，5.5不在这个树中。
 
 后经测试发现，试验成功。
 
-![image](https://github.com/CLiangH/Picture/blob/main/M3.png)
+![image](https://github.com/CLiangH/Picture/blob/main/RFC6962.png)
